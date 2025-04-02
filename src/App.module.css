@@ -1,0 +1,49 @@
+.form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.form__title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.form__field {
+  margin-bottom: 16px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  height: 15px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 10px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form__button_disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
